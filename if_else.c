@@ -1,15 +1,13 @@
-#include <stdio.h>
-
+#include<stdio.h>
 int main(){
-    int age;
-    printf("enter age :");
-    scanf("%d",&age);
+    int age = 65;
 
-    if(age >18){
-        printf("adult\n they can vote,\nthey can drive");
+    if(age>18){
+        printf("You are adult\n");
+        printf("you can drive");
     }
     else{
-        printf("not adult \n");
+        printf("you are not adult/n You cant drive");
     }
     return 0;
 }
